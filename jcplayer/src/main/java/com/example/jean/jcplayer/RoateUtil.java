@@ -75,7 +75,7 @@ public class RoateUtil {
 
                 @Override
                 public void onAnimationEnd(Animator animation) {
-                    alpha.end();
+//                    alpha.end();
                     v.setVisibility(View.INVISIBLE);
                     v.clearAnimation();
                 }
